@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+.picRight{
+  float:right;
+  position:absolute;
+  top:70px;
+  right:30px;
+  border:15px solid black;
+
+}
+.buttonRight{
+  float:right;
+  font-size :100px;
+  border-radius:10px;
+  position:fixed;
+  top:50%;
+  left:20%
+  
+  
+
+}
+  
+
+
