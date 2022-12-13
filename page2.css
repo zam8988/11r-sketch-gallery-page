@@ -1,0 +1,76 @@
+body{
+            text-align: center;
+            margin: 0px 2em;
+            font-family: arial;
+            color: white;
+            background-color: black;
+        }
+        
+        input{
+            display: none;
+        }
+
+        canvas {
+            display: block;
+        }
+
+        .tag{
+            font-size: 20px;
+            margin: 1.5em 0px;
+            padding: 5px 25px;
+            border-radius: 50px;
+            display: inline-block;
+            cursor: pointer;
+            background: white;
+            text-decoration: none;
+            color: black;
+            border: 1px solid #ccc;
+        }
+
+       
+        img{
+            max-width: 700px;
+            width: 700px;
+            height: 600px;
+            transition: all .4s ease-in-out;
+            position:absolute;
+            right: 60px;
+            border: 10px;
+            top: 160px;
+            border-color: azure;
+        }
+        #picture{
+            width:50%;
+            height: 70%; 
+        }
+
+        #p5jssketch{
+             width:50%;
+            height: 70%; 
+            margin: 0px;
+        }
+        /*filter CSS */
+
+         /* #Jupiter:checked ~ .images > img:not([class*='Jupiter']),
+         #Mars:checked ~ .images > img:not([class*='Mars']),
+         #Venus:checked ~ .images > img:not([class*='Venus']),
+         #Mercury:checked ~ .images > img:not([class*='Mercury']),
+         #Earth:checked ~ .images > img:not([class*='Earth']),
+         #Uranus:checked ~ .images > img:not([class*='Uranus'])
+          */
+         /* {
+           width: 0px;
+           height: 0px;
+        } */
+
+        /* #all:checked ~ .all,
+        #Jupiter:checked ~ .tag1, 
+        #Mars:checked ~ .tag2,
+        #Venus:checked ~ .tag3, 
+        #Mercury:checked ~ .tag4,
+        #Earth:checked ~ .tag5, 
+        #Uranus:checked ~ .tag6
+
+        {} */
+       
+
